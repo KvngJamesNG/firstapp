@@ -37,6 +37,9 @@ gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 # Integrate SassC-Ruby into Rails.
 gem 'sassc-rails', '~> 2.1', '>= 2.1.2'
 
+# bcrypt() is a sophisticated and secure hash algorithm designed by The OpenBSD project for hashing passwords. The bcrypt Ruby gem provides a simple wrapper for safely handling passwords.
+gem 'bcrypt', '~> 3.1', '>= 3.1.20'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
