@@ -1,6 +1,6 @@
 
 <%= form_with(model: @user) do |f| %>
-<%= render 'partials/error_messages' %>
+<%= render 'shared/error_messages' %>
 
 <%= f.label :name %>
 <%= f.text_field :name, class: 'form-control' %>
