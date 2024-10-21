@@ -8,7 +8,7 @@ development:
   <<: *default
   database: firstapp_development
   username: firstapp
-  password: password
+  password: august18
   host: localhost
   port: 5432
 
@@ -17,7 +17,7 @@ test:
   database: firstapp_test
 
 production:
-  <<: *default
+  <<: *default 
   database: firstapp_production
   username: firstapp
   password: <%= ENV["FIRSTAPP_DATABASE_PASSWORD"] %>
